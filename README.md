@@ -1,6 +1,6 @@
 # Salines/Sift plugin for CakePHP
 
-Sift is a CakePHP 3.8 + plugin that helps you to uncover empty and unmanaged tables and columns in your database.
+Sift is a CakePHP ^3.7 plugin that helps you to uncover empty and unmanaged tables and columns in your database.
 
 ## Installation
 
@@ -38,6 +38,26 @@ bin/cake sift
 ```
 bin/cake sift -t users -c remote
 ```
+Example output show unused (empty || NULL) columns in users table:
+```
++------------------------------------------------+
+| TABLE users                                    |
++------------------------------------------------+
+| - status                                       |
+| - acitvated                                    |
++------------------------------------------------+
+```
+
+Example output show unused (empty) columns favorites table:
+
+```
++------------------------------------------------+
+| TABLE favorites                                |
++------------------------------------------------+
+| >> Empty table                                 |
++------------------------------------------------+
+```
+
 
 ## License
 
