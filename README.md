@@ -44,7 +44,7 @@ Example output show unused (empty || NULL) columns in users table:
 | TABLE users                                    |
 +------------------------------------------------+
 | - status                                       |
-| - acitvated                                    |
+| - activated                                    |
 +------------------------------------------------+
 ```
 
