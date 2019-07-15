@@ -48,7 +48,7 @@ Example output show unused (empty || NULL) columns in users table:
 +------------------------------------------------+
 ```
 
-Example output show unused (empty) columns favorites table:
+Example output show unused (empty) favorites table:
 
 ```
 +------------------------------------------------+
