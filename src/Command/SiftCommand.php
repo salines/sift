@@ -117,7 +117,7 @@ class SiftCommand extends Command
             ->where([
                 'OR' => [
                     sprintf('%s IS NOT NULL', $column),
-                    sprintf('%s !=', $column) => ''
+                    sprintf('%s !=', $column) => ' '
                 ]        
             ])
             ->execute()
