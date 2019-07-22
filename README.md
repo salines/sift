@@ -9,7 +9,7 @@ You can install this plugin into your CakePHP application using [composer](https
 The recommended way to install composer packages is:
 
 ```
-composer require --dev salines/sift:dev-master
+composer require --dev salines/sift
 ```
 Add or move `$this->addPlugin('Salines/Sift');` in `Application.php` to:
 
